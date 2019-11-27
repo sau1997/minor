@@ -1,0 +1,58 @@
+#navbar{
+    height: 60px;
+    background:transparent;
+}
+.fas.fa-tshirt{
+    margin-right: 10px;
+}
+body{
+    background: url("https://images.pexels.com/photos/606541/pexels-photo-606541.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#right{
+    margin-left: 25em;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    margin: 10px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: white !important;
+}
+.navbar-light .navbar-brand{
+    color: white !important;
+}
+#contenthome{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+}
+.btn.btn-info.btn-lg{
+    margin-top: 20px;
+}
+.fas.fa-info{
+    padding-left: 10px;
+    color: white;
+}
+.fas.fa-home{
+    padding-left: 10px;
+    color: white;
+}
+.fas.fa-plus{
+    padding-left: 10px;
+    color: white;
+}
+.fas.fa-globe-asia{
+    padding-left: 10px;
+    color: white;
+}
+.created{
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

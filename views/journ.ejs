@@ -1,0 +1,62 @@
+<% include ./partials/header %>
+
+<div id="exportContent">
+<div class="jumbotron" id="aboutjumbotron">
+    <h1 class="display-4"><%= name %> </h1>
+    
+</div>
+<div class="container">
+     <div class="jumbotron">
+     <p class="lead">Journal Articles</p>
+     </div>
+     <ul>
+     <% for (i = 0; i < data1.length; i++){%>
+     <li>
+
+     <ul>
+     <li>Title : <%= data1[i].title %> </li>
+     <li>Year : <%= data1[i].year %> </li>
+     <li>Co Authors : <%= data1[i].coauth %> </li>
+     <li>Info : <%= data1[i].venue %> </li>
+      </ul>
+      <br>
+      </li>
+
+      <%}%>
+ 	</ul>     
+     
+     <br>
+     <br>
+</div>
+<div class="container">
+      <div class="jumbotron">
+     <p class="lead">Conferences</p>
+     </div>
+     <ul>
+     <% for (i = 0; i < data2.length; i++){%>
+     <li>
+
+     <ul>
+     <li>Title : <%= data2[i].title %> </li>
+     <li>Year : <%= data2[i].year %> </li>
+     <li>Co Authors : <%= data2[i].coauth %> </li>
+     <li><%= data2[i].venue %> </li>
+      </ul>
+      <br>
+      </li>
+
+      <%}%>
+ 	</ul> 
+</div>
+</div>
+<div class="container">
+   <a href="/down" onclick="Export2Doc('exportContent');" class="btn btn-info">Download as DOC</a>
+</div>
+<br>
+<div class="container">
+   <a href="/down" onclick="print();" class="btn btn-info" >Download as PDF</a>
+</div>
+
+<script type="text/javascript" src="./home.js"></script>
+       
+<% include ./partials/footer %>

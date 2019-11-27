@@ -1,0 +1,118 @@
+#formnew{
+    margin-top: 100px;
+    background-color: #1D6B87;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: white;
+}
+#navbar{
+    height: 50px;
+    background-color:#3594BA;
+}
+.fas.fa-tshirt{
+    margin-right: 10px;
+}
+#right{
+    margin-left: 25em;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    margin: 10px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: white !important;
+}
+.navbar-light .navbar-brand{
+    color: white !important;
+}
+body{
+    background-color: #DFEEEE;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cards{
+    margin-top: 5em;
+}
+.jumbotron{
+    margin-top: 3em;
+    background-color:#1D6B87;
+    color: white;
+    text-align: center;
+}
+#show{
+    margin-top: 5em;
+    background-color: white;
+    width: 40em;
+    border-radius: 10px;
+}
+#showcontent{
+    text-align: center;
+}
+#showimg{
+    max-width: 100%;
+    height: auto;
+}
+.fas.fa-plus{
+    padding-left: 10px;
+    color: white;
+}
+.fas.fa-info{
+    padding-left: 10px;
+    color: white;
+}
+#showbutton{
+    display:grid;
+}
+#showdelete{
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#showback{
+    margin-top: 20px;
+}
+#showedit{
+    margin-top: 20px;
+}
+.custom-select.custom-select-sm{
+    width: 20%;
+}
+#aboutjumbotron{
+    background-color: #1D6B87;
+}
+#indexadd{
+    background-color: #1D6B87;
+    border: 1px solid white;
+}
+#indexhr{
+    color: white;
+    background-color: white;
+}
+#newsubmit{
+    background-color:  #1D6B87;
+    border: 1px solid white;
+    width: 100%;
+    margin-top: 20px;
+}
+.fas.fa-home{
+    padding-left: 10px;
+    color: white;
+}
+.fas.fa-globe-asia{
+    padding-left: 10px;
+    color: white;
+}
+.footer{
+    background-color:#1D6B87;
+    color: white;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 10px;
+    bottom:0;
+    width: 100%;
+}
